@@ -19,6 +19,7 @@ function setup() {
 }
 
 function draw() {
+ellipse(0, 0, 50, 50);
   background(255);
   image(capture, 0, 0, 320, 240);
   filter('INVERT');
